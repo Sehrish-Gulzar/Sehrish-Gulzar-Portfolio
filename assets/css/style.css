@@ -1123,7 +1123,7 @@ main {
   width: 100%;
   height: 100%;
   border: none;
-  filter: grayscale(1) invert(1);
+
 }
 
 .contact-form { margin-bottom: 10px; }
@@ -1207,6 +1207,44 @@ textarea.form-input::-webkit-resizer { display: none; }
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
 
+.features-list {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;  color: white; /* Make text white for readability */
+
+  line-height: 1.6;
+}
+
+.feature-item {
+  margin-bottom: 15px; /* Add space between list items */
+}
+
+.feature-item strong {
+  font-size: 18px; /* Make headings bold and slightly larger */
+  color: #fff; /* Light color for the heading */
+}
+
+.sublist {
+  list-style-type: circle; /* Circle bullet for sublist */
+  padding-left: 20px; /* Indentation for sublist */
+  margin-top: 5px;
+  
+}
+
+.sublist li {
+  margin-bottom: 5px; /* Space between sublist items */
+  color: #ddd; /* Light gray color for sublist items */
+}
+
+.feature-item:not(:last-child) {
+  border-bottom: 1px solid #444; /* Dark border between items */
+  padding-bottom: 10px;
+}
+
+.feature-item:last-child {
+  padding-bottom: 0; /* Remove bottom padding for the last item */
+}
 
 
 

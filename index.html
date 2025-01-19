@@ -7,12 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sehrish Gulzar Portfolio</title>
 
- 
+
   <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css" />
   <link rel="stylesheet" href="./assets/css/bootstrap.css">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
 
   <!--
     - google font link
@@ -132,7 +133,7 @@
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Portfolio</button>
           </li>
-<!-- 
+          <!-- 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Blog</button>
           </li> -->
@@ -210,26 +211,30 @@
         </section>
 
         <section class="container">
-          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" >
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./assets/app_material/Sg eCommerce App.svg" class="d-block w-100" alt="Sg eCommerce App.svg"  style="border-radius: 30px;">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./assets/app_material/Sg closet/Sg eCommerce App.png" class="d-block w-100"
+                  alt="Sg eCommerce App.svg" style="border-radius: 30px;">
               </div>
-              <div class="carousel-item">
-                <img src="./assets/app_material/GuftaguNow Chat App.svg" class="d-block w-100" alt="GuftaguNow Chat App"  style="border-radius: 30px;">
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./assets/app_material/GuftaguNow Chat App.png" class="d-block w-100" alt="GuftaguNow Chat App"
+                  style="border-radius: 30px;">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
 
-          
+
         </section>
 
       </article>
@@ -260,7 +265,7 @@
                 Bachelor of Science in Computer Science (CGPA: 3.58/4.0). Proficient in programming and app development.
               </p>
             </li>
-            
+
             <li class="timeline-item">
               <h4 class="h4 timeline-item-title">Eden Grammar Higher Secondary School, Hyderabad</h4>
               <span>2017 — 2018</span>
@@ -285,26 +290,29 @@
               <h4 class="h4 timeline-item-title">Junior Faculty – Aptech Learning Pakistan</h4>
               <span>Present</span>
               <p class="timeline-text">
-                Teach programming, app development, and web development, guiding students through practical projects and fostering problem-solving skills.
+                Teach programming, app development, and web development, guiding students through practical projects and
+                fostering problem-solving skills.
               </p>
             </li>
-            
+
             <li class="timeline-item">
               <h4 class="h4 timeline-item-title">Android App Developer Intern - MUET, Jamshoro</h4>
               <span>Jan – Mar 2024</span>
               <p class="timeline-text">
-                Developed a mobile app using Flutter, Firebase, and REST APIs, adhering to Figma designs and MVC architecture.
+                Developed a mobile app using Flutter, Firebase, and REST APIs, adhering to Figma designs and MVC
+                architecture.
               </p>
             </li>
-            
+
             <li class="timeline-item">
               <h4 class="h4 timeline-item-title">Android App Developer Intern - XCL Technologies</h4>
               <span>Mar - Apr 2023</span>
               <p class="timeline-text">
-                Created a data handling app for a government agriculture project, collaborating with a team to ensure timely delivery.
+                Created a data handling app for a government agriculture project, collaborating with a team to ensure
+                timely delivery.
               </p>
             </li>
-            
+
           </ol>
         </section>
 
@@ -312,7 +320,7 @@
           <h3 class="h3 skills-title">My skills</h3>
 
           <ul class="skills-list content-card">
-       
+
 
             <li class="skills-item">
               <div class="title-wrapper">
@@ -389,68 +397,20 @@
           </div>
 
           <ul class="project-list">
-            <!-- <li class="project-item active" data-filter-item data-category="web development">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy" />
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-              </a>
-            </li> -->
-
-            <!-- <li class="project-item active" data-filter-item data-category="web development">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy" />
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-              </a>
-            </li> -->
-
             <li class="project-item active" data-filter-item data-category="applications">
-              <a href="#">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#sgModal">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/app_material/Sg eCommerce App.svg" alt="SG eCommerce App" loading="lazy" />
+                  <img src="./assets/app_material/Sg closet/Sg eCommerce App.png" alt="SG eCommerce App"
+                    loading="lazy" />
                 </figure>
-
                 <h3 class="project-title">SG-Ecommerce Shopping App</h3>
-
                 <p class="project-category">Applications</p>
               </a>
             </li>
-            <!-- <li class="project-item active" data-filter-item data-category="web development">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy" />
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-              </a>
-            </li> -->
 
             <li class="project-item active" data-filter-item data-category="applications">
               <a href="#">
@@ -459,7 +419,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/app_material/GuftaguNow Chat App.svg" alt="GuftaguNow Chat App" loading="lazy" />
+                  <img src="./assets/app_material/GuftaguNow Chat App.png" alt="GuftaguNow Chat App" loading="lazy" />
                 </figure>
 
                 <h3 class="project-title">GuftaguNow Chat App</h3>
@@ -467,197 +427,10 @@
                 <p class="project-category">Applications</p>
               </a>
             </li>
-
-            <!-- <li class="project-item active" data-filter-item data-category="web development">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy" />
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-              </a>
-            </li> -->
           </ul>
         </section>
       </article>
 
-      <!--
-        - #BLOG
-      -->
-
-      <!-- <article class="blog" data-page="blog">
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-          <ul class="blog-posts-list">
-            <li class="blog-post-item">
-              <a href="#">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy" />
-                </figure>
-
-                <div class="blog-content">
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">
-                    Design conferences in 2022
-                  </h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt,
-                    explicabo.
-                  </p>
-                </div>
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy" />
-                </figure>
-
-                <div class="blog-content">
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">
-                    Best fonts every designer
-                  </h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis
-                    est eligendi.
-                  </p>
-                </div>
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy" />
-                </figure>
-
-                <div class="blog-content">
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis
-                    nostrum exercitationem ullam corporis suscipit.
-                  </p>
-                </div>
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy" />
-                </figure>
-
-                <div class="blog-content">
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">
-                    UI interactions of the week
-                  </h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis
-                    nostrud exercitation ullamco laboris nisi.
-                  </p>
-                </div>
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy" />
-                </figure>
-
-                <div class="blog-content">
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">
-                    The forgotten art of spacing
-                  </h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                  </p>
-                </div>
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy" />
-                </figure>
-
-                <div class="blog-content">
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat,
-                    velit esse cillum.
-                  </p>
-                </div>
-              </a>
-            </li>
-          </ul>
-        </section>
-      </article> -->
 
       <!--
         - #CONTACT
@@ -667,28 +440,28 @@
         <header>
           <h2 class="h2 article-title">Contact</h2>
         </header>
-      
+
         <section class="mapbox" data-mapbox>
           <figure>
             <iframe
-            src="https://www.google.com/maps/embed/v1/view?key=AIzaSyBhgFyiRv9nNJZ6ezdY8Q3JliWShmKi56g&center=25.396053,68.346245&zoom=13"
-
+              src="https://www.google.com/maps/embed/v1/view?key=AIzaSyBhgFyiRv9nNJZ6ezdY8Q3JliWShmKi56g&center=25.396053,68.346245&zoom=13"
               width="400" height="300" loading="lazy"></iframe>
           </figure>
         </section>
-      
+
         <section class="contact-form">
           <h3 class="h3 form-title">Contact Form</h3>
-      
+
           <form action="mailto:sehrigul11@gmail.com" method="post" enctype="text/plain" class="form" data-form>
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
-      
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input />
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required
+                data-form-input />
             </div>
-      
+
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-      
+
             <button class="form-btn" type="submit" data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
@@ -696,15 +469,96 @@
           </form>
         </section>
       </article>
-      
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="sgModal" tabindex="-1" aria-labelledby="sgModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div class="modal-content" style="background-color: black;">
+            <div class="modal-header">
+              <h5 class="modal-title">SG Closet Ecommerce Shopping App</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="color: gainsboro;"></button>
+            </div>
+            <div class="modal-body">
+              <figure style="height: 100%;">
+                <iframe src="assets/app_material/Sg closet/Sg closet eCommerce shopping app.mp4" width="100%"
+                  height="300" loading="lazy"></iframe>
+              </figure>
+
+              <div class="row g-3">
+                <div class="col-6">
+                  <img src="./assets/app_material/Sg closet/2.png" alt="App Screenshot 1" class="img-fluid rounded">
+                </div>
+                <div class="col-6">
+                  <img src="./assets/app_material/Sg closet/4.png" alt="App Screenshot 2" class="img-fluid rounded">
+                </div>
+                <div class="col-6">
+                  <img src="./assets/app_material/Sg closet/6.png" alt="App Screenshot 3" class="img-fluid rounded">
+                </div>
+                <div class="col-6">
+                  <img src="./assets/app_material/Sg closet/8.png" alt="App Screenshot 4" class="img-fluid rounded">
+                </div>
+              </div>
+
+              <!-- Features Section -->
+              <div>
+                <h2 style="color:hsl(35, 100%, 68%); ">App Features:</h2>
+                <ul class="features-list">
+                  <li class="feature-item"><strong>Splash Screen:</strong> Displays the app logo when opening the app.
+                  </li>
+                  <li class="feature-item"><strong>Onboarding Screen:</strong> Explains the main features of the app
+                    with simple slides.</li>
+                  <li class="feature-item"><strong>User Login and Registration:</strong>
+                    <ul class="sublist">
+                      <li>Login: Secure login using email and password.</li>
+                      <li>Register: Easy form to create a new account.</li>
+                      <li>Social Login: Quick login with Google or other accounts.</li>
+                      <li>Forgot Password: Reset password through email.</li>
+                    </ul>
+                  </li>
+                  <li class="feature-item"><strong>Email Verification:</strong> Confirm your email after signing up.
+                  </li>
+                  <li class="feature-item"><strong>Browse Products:</strong> Explore products by category or brand.</li>
+                  <li class="feature-item"><strong>Product Details:</strong> See product info, images, and options like
+                    size and color.</li>
+                  <li class="feature-item"><strong>Add to Cart and Checkout:</strong>
+                    <ul class="sublist">
+                      <li>Quick checkout with secure payment options.</li>
+                      <li>Real-time cart updates with correct prices.</li>
+                    </ul>
+                  </li>
+                  <li class="feature-item"><strong>Wishlist:</strong> Save favorite items to buy later.</li>
+                  <li class="feature-item"><strong>Order History:</strong> View all your past orders and their details.
+                  </li>
+                  <li class="feature-item"><strong>Light and Dark Mode:</strong> Switch between light and dark themes.
+                  </li>
+                  <li class="feature-item"><strong>Real-Time Updates:</strong> Get live product updates </li>
+                </ul>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    </div>
+    </div>
+
+
+    </div>
+
   </main>
 
   <!--
     - custom js link
   -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
   <script src="./assets/js/script.js"></script>
-  <script src="./assets/js/bootstrap.min.js"></script>
+
   <!--
     - ionicon link
   -->
